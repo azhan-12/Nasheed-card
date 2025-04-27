@@ -8,21 +8,30 @@
 .container{
     width: 100%;
     min-height: 100vh;
-    background: #727987;
+    background: #fdf6f0; 
+
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.music-player{
-    background: #ffe0e5;
+
+.music-player {
+    background: linear-gradient(135deg, #a8edea, #fed6e3);
+
     width: 370px;
     height: 580px;
-    padding: 25px 35px;
-    box-shadow: 0 10px 20px 2px;
+    padding: 30px 40px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2); 
     text-align: center;
+    border-radius: 25px; 
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    border: 2px solid #ffffff; 
 }
+
 
 nav{
     display: flex;
